@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <title>תכשיטים יקרים בזול</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      color: #000;
+    }
+
+    header {
+      background-color: #b3e5fc; /* תכלת */
+      color: black; /* טקסט שחור */
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    .intro h2 {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+
+    .intro p {
+      font-size: 16px;
+      color: #333;
+    }
+
+    .category-title {
+      text-align: center;
+      font-size: 24px;
+      background-color: #b3e5fc;
+      color: black;
+      margin: 40px 0 10px 0;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .products-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto 50px auto;
+      padding: 0 20px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+      height: auto;
+      max-height: 250px;
+      object-fit: cover;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px 0;
+      font-size: 20px;
+    }
+
+    .product p {
+      margin: 5px 0;
+    }
+
+    .product .price {
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .product button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #ffd700;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .product button:hover {
+      background-color: #e6be00;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>תכשיטים יקרים בזול</h1>
+  </header>
+
+  <div class="intro">
+    <h2>ברוכים הבאים לאתר התכשיטים שלנו!</h2>
+    <p>הרוב כאן במלאי מוגבל אז מומלץ למהר!!</p>
+  </div>
+
+  <!-- צמידים -->
+  <div class="category-title">צמידים</div>
+  <div class="products-container">
+    <div class="product">
+      <img src="photo2.jpeg" alt="">
+      <h3>צמיד וינטג׳ כחול יפהפה</h3>
+      <p>לנשים</p>
+      <p class="price">מחיר: 35 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo10.png" alt="">
+      <h3>צמיד חיקוי מושלם לכסף</h3>
+      <p>צמיד נסגר • יוניסקס</p>
+      <p class="price">מחיר: 25 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo11.png" alt="">
+      <h3>סט חמישה צמידים עמידים</h3>
+      <p>צמידים יפים ליום יום</p>
+      <p class="price">מחיר: 20 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo12.png" alt="">
+      <h3>2 סטים יוקרתיים של צמידים</h3>
+      <p>חיקוי מדויק לכסף</p>
+      <p class="price">מחיר: 35 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo13.png" alt="">
+      <h3>צמיד נסגר בקליק</h3>
+      <p>חיקוי מושלם לזהב • יוניסקס</p>
+      <p class="price">מחיר: 40 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo15.png" alt="">
+      <h3>צמיד וינטג׳ נוצץ</h3>
+      <p>חיקוי כסף איכותי</p>
+      <p class="price">מחיר: 15 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo17.png" alt="">
+      <h3>צמיד כחול־שחור ברמה גבוהה</h3>
+      <p>חצי כחול חצי שחור</p>
+      <p class="price">מחיר: 15 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo20.png" alt="">
+      <h3>צמיד וינטג׳ איכותי ממתכת</h3>
+      <p>עמיד ואלגנטי</p>
+      <p class="price">מחיר: 15 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+  </div>
+
+  <!-- שרשראות -->
+  <div class="category-title">שרשראות</div>
+  <div class="products-container">
+    <div class="product">
+      <img src="photo9.png" alt="">
+      <h3>סט תכשיטים דימוי אמרלד</h3>
+      <p>חיסכון ענק • מראה יוקרתי</p>
+      <p class="price">מחיר: 35 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo4.png" alt="">
+      <h3>שרשרת וינטג׳ ורודה</h3>
+      <p>ורוד בייבי • מתכת עמידה</p>
+      <p class="price">מחיר: 50 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo3.jpg" alt="">
+      <h3>שרשרת וינטג׳ יוקרתית</h3>
+      <p>יוניסקס • נוצצת</p>
+      <p class="price">מחיר: 75 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo14.png" alt="">
+      <h3>שרשרת ירוקה נוצצת</h3>
+      <p>וינטג׳ מרשימה</p>
+      <p class="price">מחיר: 25 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo16.png" alt="">
+      <h3>שרשרת כחולה נוצצת</h3>
+      <p>עיצוב ייחודי</p>
+      <p class="price">מחיר: 25 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+  </div>
+
+  <!-- עגילים -->
+  <div class="category-title">עגילים</div>
+  <div class="products-container">
+    <div class="product">
+      <img src="photo5.png" alt="">
+      <h3>עגילי וינטג׳ צהובים</h3>
+      <p>מבריקים • יוניסקס</p>
+      <p class="price">מחיר: 40 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo7.png" alt="">
+      <h3>עגיל כסף עם זהב</h3>
+      <p>שילוב קלאסי • יוניסקס</p>
+      <p class="price">מחיר: 60 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo8.png" alt="">
+      <h3>עגילי וינטג׳ יוקרתיים</h3>
+      <p>עיצוב נקי • יוקרתי</p>
+      <p class="price">מחיר: 35 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo21.png" alt="">
+      <h3>עגילים ירוקים מהממים</h3>
+      <p>יוניסקס • מרשימים</p>
+      <p class="price">מחיר: 40 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+  </div>
+
+  <!-- טבעות -->
+  <div class="category-title">טבעות</div>
+  <div class="products-container">
+    <div class="product">
+      <img src="photo1.png" alt="">
+      <h3>סט טבעות וינטג׳</h3>
+      <p>לנשים</p>
+      <p class="price">מחיר: 35 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+    <div class="product">
+      <img src="photo22.png" alt="">
+      <h3>סט 16 טבעות נוצצות</h3>
+      <p>פשוטות וזוהרות</p>
+      <p class="price">מחיר: 30 ש"ח</p>
+      <button>הוסף לסל</button>
+    </div>
+  </div>
+
+</body>
+</html>
